@@ -1,0 +1,4 @@
+Stage,mean (ms),std (ms),p95 (ms)
+Pipeline 1: baseline retrieval,28.14,15.76,61.4
+Pipeline 2: + cross-encoder re-rank,1747.35,846.15,3601.72
+Pipeline 2 total,1775.49,854.13,3635.33

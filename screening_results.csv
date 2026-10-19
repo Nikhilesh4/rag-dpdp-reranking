@@ -1,0 +1,26 @@
+type,query,gold,base_rank,rerank_rank,useful
+Exception / corner case,Are startups exempt from any obligations under the Act?,['17'],1.0,1.0,False
+Exception / corner case,Can the Government exempt its own agencies from the Act for national security reasons?,['17'],,,False
+Exception / corner case,Is notice and consent required when personal data is processed only for research or statistical purposes?,['17'],8.0,3.0,True
+Exception / corner case,Does the Act apply to data that the individual herself made publicly available?,['3'],1.0,1.0,False
+Negation / constraint,What is a Data Fiduciary not allowed to do with the personal data of children?,['9'],1.0,1.0,False
+Negation / constraint,Can personal data be transferred to every country outside India?,['16'],1.0,1.0,False
+Negation / constraint,Does the Act apply to personal data processed by an individual for personal or domestic purposes?,['3'],1.0,1.0,False
+Negation / constraint,Must a Data Fiduciary always delete data once consent is withdrawn?,"['6', '8']",1.0,1.0,False
+Keyword trap / distractor,How much money can be imposed as a penalty if a company fails to protect personal data with security safeguards?,['Schedule-1'],1.0,1.0,False
+Keyword trap / distractor,What is the fine for not telling the Board about a personal data breach?,['Schedule-2'],10.0,1.0,True
+Keyword trap / distractor,How long does someone have to challenge a decision of the Board?,['29'],1.0,1.0,False
+Keyword trap / distractor,Under what situations can a person's data be used without asking for their consent?,['7'],6.0,4.0,False
+Negation / constraint,In which situations is a Data Fiduciary NOT required to give notice to the Data Principal before processing?,"['17', '7']",5.0,7.0,False
+Negation / constraint,Which Data Fiduciaries are not subject to the rules on notice and on rights of Data Principals?,['17'],,,False
+Keyword trap / distractor,"Which penalty applies when a Data Principal herself fails to perform her duties, such as giving false particulars?","['15', 'Schedule-5']",3.0,1.0,False
+Keyword trap / distractor,What is the maximum monetary punishment for a Data Fiduciary that mishandles a child's data?,['Schedule-3'],,,False
+Other,Can the Chairperson of the Board be removed from office?,"['21', '22']",1.0,1.0,False
+Other,Who can give consent on behalf of a person with a disability?,"['2', '9']",1.0,1.0,False
+Other,What rights does a Data Principal have over their data?,"['11', '12', '13', '14']",2.0,1.0,False
+Other,What additional duties apply to a Significant Data Fiduciary?,['10'],2.0,2.0,False
+Negation / constraint,Who cannot be sued or prosecuted for actions taken in good faith under the Act?,['35'],1.0,1.0,False
+Negation / constraint,Is a Data Principal not entitled to know which other Data Fiduciaries have received her personal data?,['11'],,,False
+Negation / constraint,Can a Data Principal go to a civil court instead of the Board for a data protection dispute?,['39'],9.0,9.0,False
+Negation / constraint,Is consent still valid if part of it goes against another law?,['6'],1.0,1.0,False
+Negation / constraint,What must a Data Principal not do when providing her personal data or making a complaint?,['15'],2.0,1.0,False
